@@ -14,7 +14,7 @@ threshold = int(input('Enter the threshold value: '))
 
 # The graph in the package is plot by the following value, 
 # My Spyder seem to have some problem: It cannot deal with input method, I try it in jupyter.
-# n = 100
+# n = 1000
 # N_max = 10
 # threshold = 50
 
@@ -25,7 +25,7 @@ x, y = np.meshgrid(x, y)        # Construc the n x n matrix for generate c
 c = x + 1j*y            # Generate c by x and y after using method meshgrid method in numpy.
 # c grid has a size 10000 with a shape 100 x 100.
 
-mask = np.zeros((100,100), dtype = bool)    # Generate mask array which filled with False
+mask = np.zeros((n,n), dtype = bool)    # Generate mask array which filled with False
 for i in range(n):
     for j in range(n):          # Calculate the z value for each complex value in c.
         z = 0                   
