@@ -3,8 +3,8 @@
 
 
 
-"HW4(1).pdf" is the requirement of this assignment
+*HW4(1).pdf* is the requirement of this assignment
 
-"mandelbrot.py" is the source code of task 1: Mandelbrot Sets
+*mandelbrot.py* is the source code of task 1: Mandelbrot Sets
 
-"markov-chain.py" is the source code of task 2: Markov Chain
+*markov-chain.py* is the source code of task 2: Markov Chain
